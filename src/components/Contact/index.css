@@ -1,0 +1,9 @@
+.contact-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Roboto';
+  color: #0f1635;
+}
