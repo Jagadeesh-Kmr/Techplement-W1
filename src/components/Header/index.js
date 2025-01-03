@@ -12,9 +12,9 @@ const Header = () => (
             Learn<span style={{color: '#ffffff'}}>TECH</span>
           </Link>
 
-          <li className="nav-menu-item-mobile-home">
+          <button className="navbar-mobile-menu-btn" type="button">
             <IoMdMenu className="nav-bar-home-menu" />
-          </li>
+          </button>
         </div>
 
         <div className="nav-bar-large-container">
@@ -55,6 +55,24 @@ const Header = () => (
         </div>
       </div>
     </nav>
+
+    <div className="navbar-nav-mb ml-auto">
+      <Link to="/home" className="nav-link">
+        Home
+      </Link>
+      <Link to="/about" className="nav-link">
+        About
+      </Link>
+      <Link to="/courses" className="nav-link">
+        Courses
+      </Link>
+      <Link to="/blog" className="nav-link">
+        Blog
+      </Link>
+      <Link to="/contact" className="nav-link">
+        Contact
+      </Link>
+    </div>
   </>
 )
 

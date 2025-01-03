@@ -52,9 +52,24 @@
   width: 110px;
 }
 
+.navbar-nav-mb {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  color: #0f1635;
+}
+
 @media screen and (min-width: 768px) {
   .website-logo {
     width: 165px;
+  }
+
+  .navbar-nav-mb {
+    display: none;
   }
 }
 
@@ -132,6 +147,13 @@
   font-size: 20px;
   font-weight: 700;
   color: #6d65f8;
+}
+
+.navbar-mobile-menu-btn {
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
 }
 
 .nav-bar-home-menu {
