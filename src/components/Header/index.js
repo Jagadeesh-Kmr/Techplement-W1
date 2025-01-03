@@ -1,4 +1,5 @@
 import {Link, withRouter} from 'react-router-dom'
+import {IoMdMenu} from 'react-icons/io'
 
 import './index.css'
 
@@ -12,13 +13,7 @@ const Header = () => (
           </Link>
 
           <li className="nav-menu-item-mobile-home">
-            <Link to="/home" className="nav-link-home">
-              <img
-                src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png"
-                alt="nav home"
-                className="nav-bar-home-img"
-              />
-            </Link>
+            <IoMdMenu className="nav-bar-home-menu" />
           </li>
         </div>
 
